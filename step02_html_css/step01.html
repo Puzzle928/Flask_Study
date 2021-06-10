@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        ul.a {   /* ul tag의 class 속성값이 a */
+            list-style-type: circle;
+        }
+        ul.b {  /* ul tag의 class 속성값이 b */
+            list-style-type: square;
+        }
+        </style>
+
+
+
+</head>
+
+
+<body>
+<a href="https://docs.emmet.io/abbreviations/syntax/"
+target='_self'>
+    1. emmet 참고 사이트
+</a>
+
+<br>
+
+<a href="https://www.w3schools.com/html/html_forms.asp">2. hteml 학습사이트</a>
+
+<hr size='10' color='blue'>
+
+<h3>1.form tag 학습</h3>
+
+<br>
+
+1. id/pw입력하는 화면 구성<br>
+- form tag 내부에 구현되는 모든 input 즉 입력되는 데이터를 그룹화 해서
+서버에 전송가능하게해주는 기본틀<br>
+- 입력 form / 어떤 서버의 어떤 프로그램에 이 데이터를 전송할 것인지에 대한
+서버 프로그램 정보(action 속성) <br>
+
+<form action="#">
+    id <input type='text'> <br>
+    pw <input type='password'> <br>
+
+
+    <!-- summit tag는 form tag 내부에 내장된 모든 입력 데이터를 form -->
+    <input type='submit' value='로그인'>
+    <input type='reset' value='로그인'>
+
+</form>
+<hr color= 'red'>
+<h3>2. 자주 사용되는 form tag</h3>
+<h4>1. radio</h4> <br>
+- 여러개의 데이터중에 하나 선택할 수 있는 tag<br>
+- 동일한 범주내에서 하나 선택시에 사용 <br>
+- <font color='red'>name속성 매우 중요 <br>
+     - 서버단 프로그램에서 client가 전송한 데이터를
+        구분하기 위한 이름으로 사용 </font><br>
+
+<br><br>
+
+<input type="radio" name='과일' id='html문서에서 tag를 구분하기 위한 고유한 별칭 부여 속성'>사과
+<input type="radio" name='과일' id=''>수박
+<input type="radio" name='과일' id=''>딸기
+
+<br><br>
+
+<h4>2. checkbox</h4> <br>
+<input type="checkbox" name='과일' id=''>사과
+<input type="checkbox" name='과일' id=''>수박
+<input type="checkbox" name='과일' id=''>딸기
+
+<br><br>
+
+<h4>3.list</h4> <br>
+- 순서 있고 li? 없고 ul <br>
+<ol>
+    <li id="item1">playdata</li>
+    <li id="item2">playdata</li>
+    <li id="item3">playdata</li>
+    <li id="item4">playdata</li>
+    <li id="item5">playdata</li>
+</ol>
+
+
+
+<hr color = 'red'>
+
+
+
+
+<h2>Lists</h2>
+<p>Example of unordered lists:</p>
+<ul class="a">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Coca Cola</li>
+</ul>
+
+<ul class="b">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Coca Cola</li>
+</ul>
+
+<p>Example of ordered lists:</p>
+<ol class="c">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Coca Cola</li>
+</ol>
+
+<ol class="d">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Coca Cola</li>
+</ol>
+
+
+</body>
+</html>

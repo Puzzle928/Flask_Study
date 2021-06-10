@@ -1,0 +1,36 @@
+학습 내용
+
+
+
+1. html tag 학습
+    -form tag
+    - client가 server에 데이터를 입력해서 전송할 수 있는 tag
+    - http:www.w3schools.com
+
+2. css 학습
+    - 볼수 있을 정도로만 학습
+    - http:www.w3schools.com
+    - 학습 방법
+        이미 존재하는 소스들 보고 실행 보고 분석 후에 실습 절대적인 학습 방법
+
+    1 + 2 : 브라우저가 있어야만 하는 브라우저 실행 언어
+
+
+------- 차후 학습 내용
+
+1. 데이터 수집
+    웹 사이트에서 수집
+        html/ css/  java script
+    rdbms로 부터 수집
+
+-------학습 단계--------
+1. html 파일 생성
+2. emmet 활용
+3. html tag 생성 연습
+4. w3schools 사이트 참조
+5. form tag 기초 학습
+    w3schools form tag들 학습
+    실습
+    w3schools form tag들 학습 - 속성, pattern(정규표현식), email...
+    실습 + 속성
+    vsc의 기능()

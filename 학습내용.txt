@@ -1,0 +1,30 @@
+flask를 활용한 web 개발 기술
+
+
+1. 설치
+ > pip install flask
+ > pip install flask-restx
+
+2. 실습 구조
+    html로 요청 <---> server단에 있는 python 코드
+    -http
+        브라우저와 네트윅기반의 서버 통신은 정해진 규약
+        웹 통신 규약
+    
+    - url로 요청
+    http
+
+3. 상식
+    개인 pc의 ip : 127.0.0.1 / localhost
+        부여 받은 ip: >ipconfig
+
+
+
+
+4. flask
+    1. 간결하게 web 화면 구성이 가능한 framework
+
+
+6. http 규약의 학습
+1. 
+
