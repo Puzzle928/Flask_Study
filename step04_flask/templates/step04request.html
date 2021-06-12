@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h2>HTML Forms</h2>
+
+    <!-- http://ip:port/login 으로 요청하는 설정
+        id/pw값을 서버에 post 방식으로 요청하면서 전송
+
+        get 요청인 경우  : http://127.0.0.1:5000/login?id=test&pw=11
+       
+        post 요청인 겨우 : http://127.0.0.1:5000
+            id/pw 가 서버단에 전송되지만 은닉되어 있음
+    -->
+    <form action="login" method="post">
+
+        <label>id:</label><br>
+        <input type="text" id="id" name="id" value="test"><br>
+
+        <label>pw:</label><br>
+        <input type="password" id="pw" name="pw" value="11"><br><br>
+
+        <!-- form의 action 속성에 설정된 실제 서버에 데이터를 전송하는 기능의 tag -->
+        <input type="submit" value="로그인">
+
+    </form> 
+    
+</body>
+</html>
+
+<!-- 주의 사항
+http://ip:port/templates/step04request.html 요청시 정상 실행 불가 
+
+해결점
+- flask 앱을 통해서 step04request.html 실행해야 함 
+
+
+
+-->
